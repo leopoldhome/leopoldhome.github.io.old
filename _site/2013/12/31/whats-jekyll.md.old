@@ -62,6 +62,12 @@
     
       
         
+          <a class="sidebar-nav-item" href="/about">关于</a>
+        
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/about.html">About</a>
         
       
@@ -117,53 +123,27 @@
       </div>
 
       <div class="container content">
-        <div class="post">
-  <h1 class="post-title">What's Jekyll?</h1>
-  <span class="post-date">31 Dec 2013</span>
-  <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+        <div class="page">
+  <h1 class="page-title">What's Jekyll?</h1>
+  <div class="post">
+  
+  <div class="post-content">
+    [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
-<blockquote>
-  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
 
-<p>It’s an immensely useful tool and one we encourage you to use here with Lanyon.</p>
+It's an immensely useful tool and one we encourage you to use here with Lanyon.
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
 
+  </div>
+  
+  
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/algorithm/2019/10/21/Change-Coin-Algorithm.html">
-            Change coin Algorithm
-            <small>21 Oct 2019</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2014/01/02/introducing-lanyon.html">
-            Introducing Lanyon
-            <small>02 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2014/01/01/example-content.html">
-            Example content
-            <small>01 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
+
+
+
 </div>
 
       </div>

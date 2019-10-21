@@ -4,7 +4,7 @@
  <title>Leopold.Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-21T10:52:05+08:00</updated>
+ <updated>2019-10-21T19:49:39+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -18,7 +18,15 @@
    <updated>2019-10-21T00:00:00+08:00</updated>
    <id>http://localhost:4000/algorithm/2019/10/21/Change-Coin-Algorithm</id>
    <content type="html">&lt;h3 id=&quot;问题描述与分析&quot;&gt;问题描述与分析&lt;/h3&gt;
+&lt;p&gt;$\vec{x}$到$\vec{\mu}$的欧氏距离
+下面的几道题可能会用到如下的程序：&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;写一个程序产生服从$d$维正态分布$N(\vec{\mu},\Sigma)$的随机样本&lt;/li&gt;
+  &lt;li&gt;写一个程序计算一给定正态分布及先验概率$P(\omega_i)$的判别函数（式(49)中所给的形式）。&lt;/li&gt;
+  &lt;li&gt;写一个程序计算任意两个点间的欧式距离。&lt;/li&gt;
+  &lt;li&gt;在给定协方差矩阵$\Sigma$的情况条件下，写一个程序计算任意一点$\vec{x}$到均值$\vec{\mu}$间的Mahalanobis距离。&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -202,18 +210,16 @@
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://localhost:4000/2013/12/31/whats-jekyll.html"/>
+   <link href="http://localhost:4000/2013/12/31/whats-jekyll.md.old"/>
    <updated>2013-12-31T00:00:00+08:00</updated>
-   <id>http://localhost:4000/2013/12/31/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+   <id>http://localhost:4000/2013/12/31/whats-jekyll.md</id>
+   <content type="html">[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
+  &gt; Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
 
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;/p&gt;
+It's an immensely useful tool and one we encourage you to use here with Lanyon.
 
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
 </content>
  </entry>
  

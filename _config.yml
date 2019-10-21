@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # 用kramdown自动生成目录树
-markdown: kramdown
-kramdown:
-  input: GFM # Github Flavored Markdown
-  math_engine: katex # 防止行间公式渲染错误
+#imarkdown: kramdown
+#kramdown:
+#  input: GFM # Github Flavored Markdown
+#  math_engine: katex # 防止行间公式渲染错误
 
 # title: Your awesome title
 title: Leopold.Blog
@@ -32,8 +32,8 @@ description: >
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.leopold.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# url: "https://www.leopold.dev" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
 github_username:  leopoldhome
 
 # Build settings
@@ -41,6 +41,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+script:
+#- var: mathjax
+#  - key: src
+#    value: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+- var:
+  - key: src
+    value: /public/js/katex.js
+  - key: js
+    value: //cdn.jsdelivr.net/npm/katex/dist/katex.min.js
+  - key: auto_render
+    value : //cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
+  - key: stylesheet
+    value: //cdn.jsdelivr.net/npm/katex/dist/katex.min.css
+  - key: delimiters  # 开启行内公式$\KaTeX$支持
+    value: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
