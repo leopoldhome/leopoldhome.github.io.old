@@ -17,6 +17,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# 用kramdown自动生成目录树
+markdown: kramdown
+kramdown:
+  input: GFM # Github Flavored Markdown
+  math_engine: katex # 防止行间公式渲染错误
 
 # title: Your awesome title
 title: Leopold.Blog
@@ -55,3 +60,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#pages_list:
+#About: '/about'
+#Archive: '/archive'
+#Feed: '/atom.xml'
