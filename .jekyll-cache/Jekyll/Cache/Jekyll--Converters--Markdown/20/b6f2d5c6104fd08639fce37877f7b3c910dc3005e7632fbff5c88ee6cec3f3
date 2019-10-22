@@ -1,19 +1,9 @@
----
-layout: post
-title: Change coin Algorithm
-categories: Algorithm
-tags: 
-  - dynamic programming 
-  - sicp
-description: 详细分析了算法导论中的零钱兑换问题，从基本算法，递归优化以及迭代优化三个方面探讨了编程实现的方法。
-date: 2019-10-21
----
-### 问题描述与分析
-# 数学分析
-## 增长趋势
-$n\to+\infty,\forall p,q>0,a>1,{(\ln n)}^q\ll n^p\ll a^n\ll n!\ll n^n$
-## 积分表
-反读可得导数表，此处略。
+I"<h3 id="问题描述与分析">问题描述与分析</h3>
+<h1 id="数学分析">数学分析</h1>
+<h2 id="增长趋势">增长趋势</h2>
+<p>$n\to+\infty,\forall p,q&gt;0,a&gt;1,{(\ln n)}^q\ll n^p\ll a^n\ll n!\ll n^n$</p>
+<h2 id="积分表">积分表</h2>
+<p>反读可得导数表，此处略。
 $\int k\,\mathrm{d}x=kx+C$
 $\int x^a\,dx=\frac{x^{a+1} }{a+1}+C$
 $\int\frac{1}{x}\,dx=\ln|x|+C$
@@ -37,4 +27,5 @@ $\int\frac{1}{x^2+a^2}\,dx=\frac{1}{a}\arctan\frac{x}{a}+C$
 $\int\frac{1}{x^2-a^2}\,dx=\frac{1}{2a}\ln|\frac{x-a}{x+a}| + C$
 $\int\frac{1}{\sqrt{a^2-x^2} }\,dx=\arcsin\frac{x}{a}+C$
 $\int\frac{1}{\sqrt{x^2-a^2} }\,dx=\ln|x+\sqrt{x^2-a^2}|+C$
-$\int\frac{1}{\sqrt{x^2+a^2} }\,dx=\ln|x+\sqrt{x^2+a^2}|+C$
+$\int\frac{1}{\sqrt{x^2+a^2} }\,dx=\ln|x+\sqrt{x^2+a^2}|+C$</p>
+:ET
