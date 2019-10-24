@@ -5,7 +5,7 @@ function run_time() {
     return i;
   }
   window.setTimeout("run_time()", 1000);
-  BirthDay = new Date("10/04/2017 11:03:56");
+  BirthDay = new Date("10/24/2019 11:03:56");
   today = new Date();
   timeold = (today.getTime() - BirthDay.getTime());
   sectimeold = timeold / 1000

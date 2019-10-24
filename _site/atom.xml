@@ -4,7 +4,7 @@
  <title>Leopold.Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-22T16:29:24+08:00</updated>
+ <updated>2019-10-24T15:58:35+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -47,6 +47,8 @@ $\int\frac{1}{x^2-a^2}\,dx=\frac{1}{2a}\ln|\frac{x-a}{x+a}| + C$
 $\int\frac{1}{\sqrt{a^2-x^2} }\,dx=\arcsin\frac{x}{a}+C$
 $\int\frac{1}{\sqrt{x^2-a^2} }\,dx=\ln|x+\sqrt{x^2-a^2}|+C$
 $\int\frac{1}{\sqrt{x^2+a^2} }\,dx=\ln|x+\sqrt{x^2+a^2}|+C$&lt;/p&gt;
+
+&lt;h2 id=&quot;王超很努力&quot;&gt;王超很努力：&lt;/h2&gt;
 </content>
  </entry>
  
