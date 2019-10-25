@@ -217,9 +217,9 @@ sidebar:
   - title: leopoldsunny@163.com # email
     href: mailto:leopoldsunny@163.com
     class: 'fas fa-envelope fa-fw'
-  - title: WuK # codeforces
-    href: //codeforces.com/profile/WuK
-    class: 'fas fa-chart-bar fw'
+#  - title: WuK # codeforces
+#    href: //codeforces.com/profile/WuK
+#    class: 'fas fa-chart-bar fw'
 #  - title: WuK # vjudge
 #    href: //vjudge.net/user/WuK
 #    class: 'fas fa-smile fa-fw'
