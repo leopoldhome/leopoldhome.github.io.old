@@ -9,3 +9,6 @@
 
 ## Jekyll 的一些使用
 bundle exec jekyll serve: to start the local server. u can open the address '127.0.0.1:4000/' to view.
+
+##git 使用命令
+git push -u origin master:
