@@ -207,7 +207,7 @@ sidebar:
     enable: true
 #    img: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=600 # 头像的地址
     img: /public/image/cat.jpg # 头像的地址
-    info: <br/>Work in SCMCC<br/>Communication ,Computer Science<br/><br/>最爱嘟嘟阳阳<br/>SCIP&Algorithm # 头像背后的信息
+    info: <br/>Work in SCMCC<br/>Communication ,Computer Science<br/>这年头拼的是谁活的很久<br/>最爱嘟嘟阳阳<br/>SCIP&Algorithm # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=41659469&auto=1&height=32"></iframe>'
 #   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
   social:
@@ -225,8 +225,8 @@ sidebar:
 #    class: 'fas fa-smile fa-fw'
   - title: 22607256 # qq
     class: 'fab fa-qq fa-fw'
-  - title: Leopold # weixin
-    class: 'fab fa-weixin fa-fw'
+#  - title: Leopold # weixin
+#    class: 'fab fa-weixin fa-fw'
   - title: github
     href: //github.com/leopoldhome
     class: 'fab fa-github fa-fw'
@@ -284,7 +284,6 @@ sidebar:
   copyright:
     enable: true
     text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star wu-kan/wu-kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
-
 index:
   showtag:
   - ICPC模板

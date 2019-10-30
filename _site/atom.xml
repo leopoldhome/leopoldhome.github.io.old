@@ -4,7 +4,7 @@
  <title>Leopold.Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-10-25T10:37:00+08:00</updated>
+ <updated>2019-10-31T06:50:00+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -48,7 +48,14 @@ $\int\frac{1}{\sqrt{a^2-x^2} }\,dx=\arcsin\frac{x}{a}+C$
 $\int\frac{1}{\sqrt{x^2-a^2} }\,dx=\ln|x+\sqrt{x^2-a^2}|+C$
 $\int\frac{1}{\sqrt{x^2+a^2} }\,dx=\ln|x+\sqrt{x^2+a^2}|+C$&lt;/p&gt;
 
-&lt;h2 id=&quot;王超很努力&quot;&gt;王超很努力：&lt;/h2&gt;
+&lt;h2 id=&quot;test&quot;&gt;test&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD
+A[Christmas] --&amp;gt;|Get money| B(Go shopping)
+B --&amp;gt; C{Let me think}
+C --&amp;gt;|One| D[Laptop]
+C --&amp;gt;|Two| E[iPhone]
+C --&amp;gt;|Three| F[Car]
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  
