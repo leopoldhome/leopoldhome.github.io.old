@@ -1,6 +1,6 @@
 ---
-layout:post
-title:求幂问题
+layout: post
+title: 求幂问题
 categories: Algorithm
 tags: 
   - sicp 
